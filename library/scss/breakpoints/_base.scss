@@ -603,6 +603,7 @@ POSTS & CONTENT STYLES
 
 .team-member {
     border-bottom: 1px dotted #000;
+    @include clearfix;
 }
 
 .profilepic {

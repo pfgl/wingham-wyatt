@@ -1858,6 +1858,10 @@ POSTS & CONTENT STYLES
 
 .team-member {
   border-bottom: 1px dotted #000; }
+  .team-member:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .profilepic {
   float: left;
